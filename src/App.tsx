@@ -27,7 +27,7 @@ function App() {
             onClick={() => dispatch({ type: "restart-app" })}
           >
             {" "}
-            Reiniciar app
+            Restart app
           </button>
         </div>
       </header>

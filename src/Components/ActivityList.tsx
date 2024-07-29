@@ -22,10 +22,10 @@ export default function ActivityList({
   return (
     <>
       <h2 className=" text-4xl font-bold text-slate-600 text-center">
-        Comida y Actividades
+        Food and activities
       </h2>
       {isEmptyActivities ? (
-        <p className=" text-center my-2"> No hay actividades aun</p>
+        <p className=" text-center my-2"> There are no activities</p>
       ) : (
         activities.map(activity => (
           <div
